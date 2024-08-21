@@ -1,7 +1,7 @@
-package Week1;
+package Week_1;
 
 
-public class Datatypes
+public class datatypesWeek1
 {
     public static void main(String[] args)
     {

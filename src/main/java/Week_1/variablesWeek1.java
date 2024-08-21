@@ -1,7 +1,7 @@
-package Week1;
+package Week_1;
 
 
-public class Variables
+public class variablesWeek1
 {
     static int a = 200; //Static Variable
 

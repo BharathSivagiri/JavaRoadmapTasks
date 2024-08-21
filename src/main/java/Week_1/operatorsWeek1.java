@@ -1,6 +1,6 @@
-package Week1;
+package Week_1;
 
-public class Operators
+public class operatorsWeek1
 {
     public static void main(String[] args)
     {
