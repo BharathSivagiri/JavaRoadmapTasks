@@ -22,6 +22,7 @@ public class classesWeek2
 
     public static void main(String[] args)
     {
+        //Creating an object of the class and calling its methods
         classesWeek2 person1 = new classesWeek2("Hello World", 30);
         person1.displayInfo();
     }
