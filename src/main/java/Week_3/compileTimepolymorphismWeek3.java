@@ -1,4 +1,4 @@
-package Week_2;
+package Week_3;
 
 class CompileTime 
 {
@@ -12,7 +12,7 @@ class CompileTime
         return 2 * (l + b);
     }
 }
-public class compileTimepolymorphismWeek2
+public class compileTimepolymorphismWeek3
 {
     public static void main(String[] args) {
         // calling perimeter method by passing a single argument

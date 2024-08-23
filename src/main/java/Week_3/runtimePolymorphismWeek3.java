@@ -1,4 +1,4 @@
-package Week_2;
+package Week_3;
 
 //parent class Animal
 class Animal{
@@ -35,7 +35,7 @@ class Rabbit extends Animal
         System.out.println("Rabbit lives in burrow.");
     }
 }
-public class runtimePolymorphismWeek2
+class runtimePolymorphismWeek3
 {
     public static void main(String[] args)
     {
