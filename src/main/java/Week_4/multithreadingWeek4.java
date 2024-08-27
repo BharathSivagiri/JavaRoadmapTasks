@@ -12,11 +12,11 @@ public class multithreadingWeek4
 
     public static void main(String[] args)
     {
-        // Creating a thread using an anonymous inner class
+        // Creating a thread using an anonymous inner class and lambda expression
         Thread thread1 = new Thread(() -> System.out.println("Thread 1 is running"));
         thread1.start();
 
-        // Creating a thread using a Runnable interface
+        // Creating a thread using a Runnable interface and lambda expression
         Runnable runnable = () -> System.out.println("Thread 2 is running");
         Thread thread2 = new Thread(runnable);
         thread2.start();
@@ -32,7 +32,7 @@ public class multithreadingWeek4
         // Pausing a thread using sleep
         try
         {
-            thread1.sleep(10000);
+            Thread.sleep(10000);
         }
         catch (InterruptedException e)
         {
@@ -40,7 +40,7 @@ public class multithreadingWeek4
         }
 
         // Interrupting a thread
-        thread3.interrupt();
+//        thread3.interrupt();
         try
         {
             thread3.join();
