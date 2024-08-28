@@ -5,8 +5,10 @@ import java.io.Serializable;
 
 public class serialization implements Serializable
 {
+    private static final long serialVersionUID = 10L;//Initializing the user defined Version ID
+
     //Initializing variables
-    public String SName;
+    public transient String SName;//Here transient keyword prevents this particular string from being serialized
     public String SCity;
     public int SRollNo;
 
