@@ -1,7 +1,6 @@
 package Week_5.StreamAPIWeek5;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class IntermediateOperationsSAPI
 {
@@ -22,8 +21,8 @@ public class IntermediateOperationsSAPI
                 .filter(s -> s.startsWith("S"))      // Filter elements starting with "S"
                 .map(String::toUpperCase)            // Transform each element to uppercase
                 .distinct()                             // Remove duplicate elements
-                .sorted()                            // Sort elements
-                .peek(intermediateResults::add) // Perform an action (add to set) on each element
+                .sorted()                               // Sort elements
+                .peek(intermediateResults::add) // performs the operation on each stream element, but does not modify the stream.
                 .toList();                              // Collect the final result into a list
 
         // Print the intermediate results
