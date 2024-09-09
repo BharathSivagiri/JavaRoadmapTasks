@@ -1,19 +1,9 @@
 package Week_5.DefaultMethodsWeek5;
 
-interface TestInterface
-{
-    // abstract method
-    public void square(int a);
-
-    // default method
-    default void show()
-    {
-        System.out.println("Default Method Executed");
-    }
-}
 
 class DefaultMethodsWeek5 implements TestInterface
 {
+    @Override
     // implementation of square abstract method
     public void square(int a)
     {
@@ -27,7 +17,6 @@ class DefaultMethodsWeek5 implements TestInterface
 
         // default method executed
         d.show();
-
     }
 }
 

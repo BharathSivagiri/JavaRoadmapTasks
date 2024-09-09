@@ -1,20 +1,9 @@
-package Week_5.DefaultMethodsWeek5;
+package Week_5.StaticMethodsWeek5;
 
-interface TestInterface2
-
-{
-    // abstract method
-    public void square (int a);
-
-    // static method
-    static void show()
-    {
-        System.out.println("Static Method Executed");
-    }
-}
 
 class StaticMethods implements TestInterface2
 {
+    @Override
     // Implementation of square abstract method
     public void square (int a)
     {
