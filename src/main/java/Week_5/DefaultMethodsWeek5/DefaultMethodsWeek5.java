@@ -10,6 +10,12 @@ class DefaultMethodsWeek5 implements TestInterface
         System.out.println(a*a);
     }
 
+//    @Override
+    public void show()
+    {
+        System.out.println("Default Method Executed in DefaultMethodsWeek5 class");
+    }
+
     public static void main(String[] args)
     {
         DefaultMethodsWeek5 d = new DefaultMethodsWeek5();

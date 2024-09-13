@@ -1,9 +1,7 @@
 package Week_5.StaticMethodsWeek5;
 
-
-class StaticMethods implements TestInterface2
+class StaticMethods
 {
-    @Override
     // Implementation of square abstract method
     public void square (int a)
     {

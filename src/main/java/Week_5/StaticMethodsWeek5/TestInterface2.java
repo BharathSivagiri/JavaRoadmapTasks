@@ -1,6 +1,6 @@
 package Week_5.StaticMethodsWeek5;
 
-interface TestInterface2
+public interface TestInterface2
 {
     // abstract method
     public void square (int a);
